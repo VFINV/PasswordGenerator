@@ -82,9 +82,9 @@ public class PasswordGeneratorGUI extends JFrame {
         if (password.matches(".*\\d.*")) score++;
         if (password.matches(".*[!@#$%^&*()].*")) score++;
 
-        if (score >= 5) return "Strong 💪";
-        else if (score >= 3) return "Medium ⚠️";
-        else return "Weak 😓";
+        if (score >= 5) return "Strong";
+        else if (score >= 3) return "Medium";
+        else return "Weak";
     }
 
     public static void main(String[] args) {
