@@ -19,7 +19,7 @@ public class PasswordGeneratorGUI extends JFrame {
     private JLabel strengthLabel;
 
     public PasswordGeneratorGUI() {
-        setTitle("Password Generator 🔐");
+        setTitle("Password Generator");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
